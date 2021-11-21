@@ -1,7 +1,6 @@
 # c-
 学习的点点滴滴
 2. 第一个C语言程序
-比特就业课 比特就业课-专注IT大学生就业的精品课程 比特主页：https://m.cctalk.com/inst/s9yewhfr
 3. 数据类型
 为什么出现这么的类型？
 每种类型的大小是多少？
@@ -44,7 +43,6 @@ int main()
 char ch = 'w';
 int weight = 120;
 int salary = 20000;
-比特就业课 比特就业课-专注IT大学生就业的精品课程 比特主页：https://m.cctalk.com/inst/s9yewhfr
 不变的值，C语言中用常量的概念来表示，变得值C语言中用变量来表示。
 3.1 定义变量的方法
 3.2 变量的分类
