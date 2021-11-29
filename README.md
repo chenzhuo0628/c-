@@ -4,11 +4,7 @@
 3. 数据类型
 为什么出现这么的类型？
 每种类型的大小是多少？
-注意：存在这么多的类型，其实是为了更加丰富的表达生活中的各种值。
-类型的使用：
-3. 变量、常量
-生活中的有些值是不变的（比如：圆周率，性别，身份证号码，血型等等）
-有些值是可变的（比如：年龄，体重，薪资）。
+#define _CRT_SECURE_NO_WARNINGS 1（需要的）
 #include <stdio.h>
 int main()
 {
@@ -80,3 +76,33 @@ int main()
 //这里介绍一下输入，输出语句
 //scanf
 //printf
+#include <stdio.h>
+int main()
+{
+    int num1 = 0;
+   int num2 = 0;
+    int sum = 0;
+    printf("输入两个操作数:>");
+    scanf("%d %d", &num1, &num2);
+    sum = num1 + num2;
+    printf("sum = %d\n", sum);
+    return 0;
+}
+上述代码，写成函数如下：
+#include <stdio.h>
+int Add(int x, int y)
+{
+   int z = x+y;
+   return z;
+}
+int main()
+{
+    int num1 = 0;
+   int num2 = 0;
+    int sum = 0;
+    printf("输入两个操作数:>");
+    scanf("%d %d", &num1, &num2);
+    sum = Add(num1, num2);
+    printf("sum = %d\n", sum);
+    return 0;
+}
